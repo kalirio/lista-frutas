@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial;
+    background-color: #f6f7b7;
+}
+
+#btnAdicionar {
+    border: none;
+    border-radius: 10px;
+    background-color: #ff80a8;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#btnAdicionar:hover,
+#btnAdicionar:focus {
+    background-color: #e35481;
+}
+
+#frutaInput {
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #ff80a8;
+}
+
+#listaFrutas {
+    background-color: #ffebf1;
+    border-radius: 7px;
+    border: 3px dotted #db128b;
+    color: #ff80a8;
+    padding: 20px;
+    margin: 15px 0;
+    list-style-type: none;
+}
+
+#listaFrutas:empty {
+    border: none;
+    padding: 0;
+}
+
+#listaFrutas li {
+    background-color: #ffffff;
+    padding: 7px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 14px;
+    border-bottom: 3px dashed #ffebf1;
+}
+
+h1 {
+    color: #40403e;
+}
+
+#btnAdicionar:focus,
+#frutaInput:focus {
+    outline: 2px solid #ffff00;
+    outline-offset: 2px;
+}
